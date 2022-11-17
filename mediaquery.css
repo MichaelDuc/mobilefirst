@@ -1,0 +1,157 @@
+/**************Laptop*****************/
+
+@media screen and (min-width:910px) {
+
+    #logo {
+        background-image: url(images/dgblogo.png);
+        width: 200px;
+        margin: 30px;
+        position: relative;
+        top: 70px;
+    }
+
+    #navMobile {
+        display: none;
+    }
+
+    .xicon-container {
+        display: none;
+    }
+
+
+    #navLaptop {
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        gap: 10px;
+
+    }
+
+    #navLaptop a:hover {
+        color: white;
+        overflow: hidden;
+        transition: all 0.3s ease 0s;
+  }
+
+    #søgicon:hover, #globeicon:hover {
+    color: white;
+    transition: all 0.3s ease 0s;
+  }
+
+
+  
+}
+
+/**************** Mobil **********/
+@media screen and (max-width:910px) {
+
+    /* Udvider siden 100% ud*/
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+
+    header {
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }    
+
+    #navLaptop {
+        display: none;
+    }
+
+    #navMobile div {
+        padding: 10px;
+    }
+
+    #navMobile div:hover {
+        color: white;
+        transition: all 0.3s ease 0s;
+    }
+
+    #navMobile, #navMobile div {
+        width: 180px;
+        height: 40px;
+        gap: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    .xicon-container #xicon {
+    width: 20px;
+    }
+
+    .flex-container {
+        width: 60%;
+        display: block;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .flex-container div {
+        margin-bottom: 50px;
+    }
+
+    .cardcontainer #forsideimg {
+        background-size:cover;
+        height: 300px;
+    }
+
+    .priscontainer {
+        width: 100%;
+
+        margin-left: 20px;
+    }
+
+    .priscontainer #prisimg img {
+        width: 100%;
+        background-size: cover;
+    }
+
+    #logo {
+        width: 80px;
+    }
+
+    .headingbox h1 span {
+        font-size: 30px;
+    }
+
+    .kortcontainer {
+        width: 100%;
+    }
+
+    .kortcontainer #kortimg {
+        background-size: cover;
+        width: 100%;
+        height: 230px;
+    }
+   
+    .footerflexbox {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+
+    .footerflexbox #sekt-2 {
+        margin-top: 70px;
+    }
+
+    .footerflexbox #sekt-2 form {
+        margin:auto;
+    }
+
+    .footerflexbox #socialemedier {
+        margin-bottom: 50px;
+    }
+    
+}

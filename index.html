@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="dk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Den Gamle By</title>
+
+<!--Stylesheets-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footerstyle.css">
+    <link rel="stylesheet" href="mediaquery.css">
+
+<!-- Icon -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<link href='https://css.gg/search.css' rel='stylesheet'>
+<link href='https://css.gg/globe-alt.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <div id="logo" >
+            <img src="images/dgblogo.png" alt="Den Gamle By">
+        </div>
+
+        <nav id="navLaptop">
+            <a href="">Arrangementer</a>
+            <a href="">Tidsperioder</a>
+            <a href="">Besøg os</a>
+            <a href="">Kort</a>
+            <a href="">Om</a>
+
+        
+            <div id="søgicon">
+                <i class="gg-search"></i>
+            </div>
+
+            <div id="globeicon">
+                <i class="gg-globe-alt"></i>
+            </div>
+        
+
+        </nav>
+
+        <nav id="navMobile">
+            <div id="søgicon">
+                <i class="gg-search"></i>
+            </div>
+
+            <div id="globeicon">
+                <i class="gg-globe-alt"></i>
+            </div>
+            <a href="menu.html"><img src="images/burgericon.png" alt="burgermenu"></a>
+        </nav>
+    </header>
+
+<section class="mainbody">
+
+<!--Baggrundsbillede + tekst-->
+    <section class="cardcontainer">
+        <div id="forsideimg" ></div>
+    </section>
+
+
+<!-- Arrangementer ( Headingbox )-->
+
+    <section class="headingbox">
+        <h1><span>Arrangementer</span></h1>
+    </section>
+
+    <section class="julcontainer">
+        <div id="julimg">
+        </div>
+        <h1>Igen i år åbner vi op for den traditionelle 
+            julestemning i Den Gamle By. </h1>
+            <h1>Begrænset antal billetter, 
+            så skynd jer at få hele familien med!</h1>
+
+            <h2>Køb billetter her</h2>
+    </section>
+
+
+<!-- Tidsperioder-->
+
+<section class="headingbox">
+    <h1><span>Tidsperioder</span></h1>
+</section>
+
+<!--Cardscontainer-->
+    <section class="flex-container">
+
+        <div>
+            <div id="cardimg1">
+                <h1>Verden før 1900</h1>
+            </div>
+
+            <p>Få en unik oplevelse af Danmark i middelalderen. 
+                En historisk evolution med H.C Andersen, hestevogne 
+                og huse helt fra 1550 tallet. </p>
+
+                <h2>Læs mere</h2>
+        </div>
+
+        <div>
+            <div id="cardimg2">
+                <h1>Den moderne tids udvikling</h1>
+            </div>
+
+            <p>Industralisering med fabrikker og biler tager 
+                fat og bliver en del af historien. Kom ned og se, 
+                om der er noget genkendelig fra dengang til i dag.</p>
+
+                <h2>Læs mere</h2>
+        </div>
+
+        <div>
+            <div class="cardimg3">
+                <h1> Danmark i 70'erne</h1>
+            </div>
+            
+            <p>Kampen for kvindebevægelsen. De første gæstearbejdere. 
+                Hippiernes storhedstid. Oplev dine forældres barndom eller, 
+                vend tilbage til nostalgien som du husker den.</p>
+
+                <h2>Læs mere</h2>
+        </div>
+
+    </section>
+
+    <!-- Priser og åbningstider -->
+
+    <section class="headingbox">
+        <h1><span>Priser og åbningstider</span></h1>
+    </section>
+
+    <section class="priscontainer">
+        <div id="prisimg">
+            <img src="images/tabel.png" alt="pris">
+        </div>
+    </section>
+
+ 
+            <!-- Kort -->
+
+    <section class="headingbox">
+         <h1><span>KORT</span></h1>
+    </section>
+        
+    <section class="kortcontainer">
+        <div id="kortimg"></div>
+    </section>   
+
+</section>
+
+
+<footer>
+        <section class="footerflexbox">
+    
+            <div id="sekt-1">
+                <h1> Kontakt</h1>
+                <p>Viborgvej 2 </p>
+                <p>8000 Aarhus C</p>
+                <p>+45 86 12 31 88 </p>
+                <p id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10711.097512363802!2d10.17482619894416!3d56.15726327302572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3fe95ac46a89%3A0xb5564e6a17eef6c9!2sDen%20Gamle%20By!5e0!3m2!1sda!2sdk!4v1668502581418!5m2!1sda!2sdk" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+    
+            <div id="sekt-2">
+                <h1>Nyhedsbrev</h1>
+                <h2>Hold dig opdateret med de seneste nyheder, arrangementer og tilbud.</h2>
+                <form>
+                    <input type="text" placeholder="Indtast din e-mail her">
+                    <br>
+                    <button type="submit">TILMELD</button>
+                </form>
+            </div>
+            
+            <div id="sekt-3">
+                <h1>Følg os</h1>
+    
+                <div id="socialemedier">
+                    <ion-icon name="logo-facebook"></ion-icon></a>
+                    <ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+    
+        </section>
+
+    </footer>
+    </body>
+    </html>

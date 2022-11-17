@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Den Gamle By Menu</title>
+</head>
+
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15pt;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(230, 149, 56);
+    color: white;
+}
+
+nav #dgblogo {
+    background-color: white;
+}
+
+nav img {
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+
+.xicon-container #xicon {
+    width: 200px;
+    position: fixed;
+    right: -60px;
+    background-color: white;
+    top: 20px;
+}
+
+</style>
+
+<body>
+    <nav>
+        <a id="dgblogo" href="index.html"><img src="images/dgblogo.png" alt="logo"></a>
+        <div class="xicon-container">
+            <a id="xicon" href="index.html"><img src="images/xicon.png" alt="xicon"></a>
+        </div>
+        <a href="index.html">Hjem</a>
+        <a href="">Arrangementer</a>
+        <a href="">Tidsperioder</a>
+        <a href="">Besøg os</a>
+        <a href="">Kort</a>
+        <a href="">Om</a>
+    </nav>
+    
+</body>
+</html>
